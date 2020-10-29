@@ -699,32 +699,6 @@ html {
       color: var(--theme-dark-green);
     }
 
-.hero input {
-    margin-top: 2rem;
-    margin-right: 1rem;
-    width: 20%;
-  }
-
-.hero input::-webkit-input-placeholder {
-      color: #000;
-      font-weight: bold;
-    }
-
-.hero input:-ms-input-placeholder {
-      color: #000;
-      font-weight: bold;
-    }
-
-.hero input::-ms-input-placeholder {
-      color: #000;
-      font-weight: bold;
-    }
-
-.hero input::placeholder {
-      color: #000;
-      font-weight: bold;
-    }
-
 .main-content .container {
     max-width: var(--container-max-width);
   }
@@ -737,6 +711,30 @@ html {
 
 .main-content .shields a:not(:last-child) {
       margin-right: 0.25rem;
+    }
+
+.main-content input {
+    width: 25%;
+  }
+
+.main-content input::-webkit-input-placeholder {
+      color: #000;
+      font-weight: bold;
+    }
+
+.main-content input:-ms-input-placeholder {
+      color: #000;
+      font-weight: bold;
+    }
+
+.main-content input::-ms-input-placeholder {
+      color: #000;
+      font-weight: bold;
+    }
+
+.main-content input::placeholder {
+      color: #000;
+      font-weight: bold;
     }
 
 .main-content .tile {
@@ -832,4 +830,4 @@ html {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.efeb7.css.map*/
+/*# sourceMappingURL=ssr-bundle.dfab1.css.map*/
