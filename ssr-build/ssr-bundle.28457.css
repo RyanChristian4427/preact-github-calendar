@@ -734,6 +734,7 @@ html {
 
 .main-content input {
     width: 25%;
+    border-color: #dbdbdb !important;
   }
 
 .main-content input::-webkit-input-placeholder {
@@ -754,6 +755,11 @@ html {
 .main-content input::placeholder {
       color: #000;
       font-weight: bold;
+    }
+
+.main-content input:active,
+    .main-content input:focus {
+      border-color: #48c774 !important;
     }
 
 .main-content .tile {
@@ -850,4 +856,4 @@ html {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.1a87b.css.map*/
+/*# sourceMappingURL=ssr-bundle.28457.css.map*/
