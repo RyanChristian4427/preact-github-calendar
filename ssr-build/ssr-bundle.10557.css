@@ -805,6 +805,7 @@ html {
 }
 
 .github-calendar__graph rect {
+  shape-rendering: geometricPrecision;
   outline: 1px solid rgba(27, 31, 35, 0.04);
   outline-offset: -1px;
 }
@@ -856,4 +857,4 @@ html {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.28457.css.map*/
+/*# sourceMappingURL=ssr-bundle.10557.css.map*/
